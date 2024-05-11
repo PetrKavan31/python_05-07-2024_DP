@@ -31,6 +31,7 @@ class ShoesController:
     def display_view(self):
         self.view.display_shoes(self.shoes)
 
+
 if __name__ == "__main__":
     shoes = Shoes("Man", "sneakers", "black", 135, "Lonsdale", 44)
     view = ShoesView()

@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aed52cc6-9383-4801-9eae-94fc248afc01" name="Changes" comment="create file HW&#10;add class Shoe&#10;MCV pattern&#10;it does not work, still">
+    <list default="true" id="aed52cc6-9383-4801-9eae-94fc248afc01" name="Changes" comment="it works">
       <change beforePath="$PROJECT_DIR$/Air-mj.py" beforeDir="false" afterPath="$PROJECT_DIR$/Air-mj.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -140,7 +140,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715450595402</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="it works">
+      <option name="closed" value="true" />
+      <created>1715451978098</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1715451978098</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -151,6 +159,7 @@
     <MESSAGE value="create file HW&#10;add class Shoe" />
     <MESSAGE value="create file HW&#10;add class Shoe&#10;MCV pattern" />
     <MESSAGE value="create file HW&#10;add class Shoe&#10;MCV pattern&#10;it does not work, still" />
-    <option name="LAST_COMMIT_MESSAGE" value="create file HW&#10;add class Shoe&#10;MCV pattern&#10;it does not work, still" />
+    <MESSAGE value="it works" />
+    <option name="LAST_COMMIT_MESSAGE" value="it works" />
   </component>
 </project>

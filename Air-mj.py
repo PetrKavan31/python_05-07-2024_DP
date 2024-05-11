@@ -1,44 +1,84 @@
-class Article:
-    """Model class representing an article."""
-    def __init__(self, title, author, num_characters, publisher, summary):
-        self.title = title
-        self.author = author
-        self.num_characters = num_characters
-        self.publisher = publisher
-        self.summary = summary
+import json
+import pickle
 
+class Airplane:
+    # Initialize an Address instance
+    def __init__(self, numberPilots, numberEngines):
+        self.numberPilots = numberPilots
+        self.numberEngines = numberEngines
+
+
+    # Define string representation of Address instance
     def __str__(self):
-        return f"Article '{self.title}' by {self.author}"
+        return f"{self.numberEngines}{self.numberPilots}"
 
-class ArticleView:
-    """View class for displaying an article."""
-    @staticmethod
-    def display_article(article):
-        print(f"Title: {article.title}")
-        print(f"Author: {article.author}")
-        print(f"Number of Characters: {article.num_characters}")
-        print(f"Published at: {article.publisher}")
-        print(f"Summary: {article.summary}\n")
+    # Convert the Address object to a dictionary
+    def to_dict(self):
+        return {
+            "countPilots": self.numberPilots,
+            "countEngines": self.numberEngines
+        }
 
-class ArticleController:
-    """Controller class to mediate between the model (Article) and the view (ArticleView)."""
-    def __init__(self, article, view):
-        self.article = article
-        self.view = view
+file_namePKL = 'letadlo.pkl'
+file_nameJSON = 'letadlo.json'
 
-    def display_view(self):
-        self.view.display_article(self.article)
+def serializePkl(data):
+    # Create a full file path
+    path = file_namePKL
+    # Open the file in write mode
+    with open(path,"wb") as file:
+        # Serialize and save data to the file
+        pickle.dump(data, file)
 
-# Example usage:
-if __name__ == "__main__":
-    # Create an instance of Article
-    article = Article("The Rise of Python", "Jane Doe", 2500, "Python Journal", "An analysis of the factors driving Python's popularity.")
+# Define a function to load data from a file and deserialize it
+def deserializePKL():
+    # Create a full file path
+    path = file_namePKL
+    # Open the file in read mode
+    with open(path, "rb") as file:
+        # Load and deserialize data from the file
+        data = pickle.load(file)
+    # Return the deserialized data
+    return data
 
-    # Create an instance of ArticleView
-    view = ArticleView()
+def serializeJSON(data):
+    # Create a full file path
+    path = file_nameJSON
+    # Open the file in write mode
+    with open(path,"w") as file:
+        # Serialize and save data to the file
+        json.dump(data, file)
 
-    # Create an instance of ArticleController with the model and view
-    controller = ArticleController(article, view)
+def deserializeJSON():
+    # Create a full file path
+    path = file_nameJSON
+    # Open the file in read mode
+    with open(path, "r") as file:
+        # Load and deserialize data from the file
+        data = json.load(file)
+    # Return the deserialized data
+    return data
 
-    # Display the article using the controller
-    controller.display_view()
+# Define the Address class
+
+
+# Create a Human instance
+b747 = Airplane("43", "4")
+
+print(serializePkl(b747))
+print(deserializePKL())
+
+print(serializeJSON(b747.to_dict()))
+print(deserializeJSON())
+# Serialize the Human instance to a JSON string
+# serialized = json.dumps(b747.to_dict())
+# print(f"Serialized object:\n\n{serialized}\n\n")
+#
+# # Deserialize the JSON string back into a dictionary
+# deserialized = json.loads(serialized)
+#
+# # Create a new Human instance from the deserialized dictionary
+# #second_obj = Human(deserialized["name"], deserialized["last_name"], Address(**deserialized["address"]))
+#
+# # Print the deserialized Human instance
+# print(f"Deserialized object:\n\n{deserialized}")
