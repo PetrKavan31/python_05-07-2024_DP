@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aed52cc6-9383-4801-9eae-94fc248afc01" name="Changes" comment="create file HW">
-      <change afterPath="$PROJECT_DIR$/Air-mj.py" afterDir="false" />
+    <list default="true" id="aed52cc6-9383-4801-9eae-94fc248afc01" name="Changes" comment="create file HW&#10;add class Shoe">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Adapter.py" beforeDir="false" afterPath="$PROJECT_DIR$/Adapter.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Singelton.py" beforeDir="false" afterPath="$PROJECT_DIR$/Singelton.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hw13_MVC.py" beforeDir="false" afterPath="$PROJECT_DIR$/hw13_MVC.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -120,7 +116,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715413081805</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="create file HW&#10;add class Shoe">
+      <option name="closed" value="true" />
+      <created>1715432568638</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1715432568638</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -128,6 +132,7 @@
     <MESSAGE value="mvc, mvt" />
     <MESSAGE value="mvc, mvt, etc." />
     <MESSAGE value="create file HW" />
-    <option name="LAST_COMMIT_MESSAGE" value="create file HW" />
+    <MESSAGE value="create file HW&#10;add class Shoe" />
+    <option name="LAST_COMMIT_MESSAGE" value="create file HW&#10;add class Shoe" />
   </component>
 </project>
