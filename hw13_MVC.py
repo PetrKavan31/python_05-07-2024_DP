@@ -9,7 +9,7 @@ class Shoes:
         self.size = size
 
     def __str__(self):
-        return f"{self.gender} shoes, type of shoes: {self.type_of_shoe}"
+        return f"{self.gender} shoes, type of shoes: {self.type_of_shoes}"
 
 
 class ShoesView:
@@ -20,8 +20,21 @@ class ShoesView:
         print(f"Color: {shoes.color}")
         print(f"Price: {shoes.price}")
         print(f"Brand: {shoes.brand}")
-        print(f"Size: {shoes.size}")
+        print(f"Size: {shoes.size}\n")
 
 
-class ShoesControler:
-    def __int__(self):
+class ShoesController:
+    def __int__(self, shoes, view):
+        self.shoes = shoes
+        self.view = view
+
+    def display_view(self):
+        self.view.display_shoes(self.shoes)
+
+if __name__ == "__main__":
+    shoes = Shoes("Man", "sneakers", "black", 135, "Lonsdale", 44)
+    view = ShoesView()
+    controller = ShoesController(shoes, view)
+    controller.display_view()
+
+

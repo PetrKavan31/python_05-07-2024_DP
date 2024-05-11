@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aed52cc6-9383-4801-9eae-94fc248afc01" name="Changes" comment="create file HW&#10;add class Shoe">
+    <list default="true" id="aed52cc6-9383-4801-9eae-94fc248afc01" name="Changes" comment="create file HW&#10;add class Shoe&#10;MCV pattern">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Air-mj.py" beforeDir="false" afterPath="$PROJECT_DIR$/Air-mj.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hw13_MVC.py" beforeDir="false" afterPath="$PROJECT_DIR$/hw13_MVC.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,6 +52,7 @@
     "Python.Airplane-MJ.executor": "Run",
     "Python.Main.executor": "Run",
     "Python.Singelton.executor": "Run",
+    "Python.hw13_MVC.executor": "Run",
     "Python.mvc.executor": "Run",
     "Python.mvt.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -124,7 +126,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715432568638</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="create file HW&#10;add class Shoe&#10;MCV pattern">
+      <option name="closed" value="true" />
+      <created>1715437557333</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1715437557333</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -133,6 +143,7 @@
     <MESSAGE value="mvc, mvt, etc." />
     <MESSAGE value="create file HW" />
     <MESSAGE value="create file HW&#10;add class Shoe" />
-    <option name="LAST_COMMIT_MESSAGE" value="create file HW&#10;add class Shoe" />
+    <MESSAGE value="create file HW&#10;add class Shoe&#10;MCV pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="create file HW&#10;add class Shoe&#10;MCV pattern" />
   </component>
 </project>
