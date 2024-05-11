@@ -10,9 +10,7 @@ class Airplane:
     def __str__(self):
         return f"{self.passengers}, {self.weight}"
 
-# file_namePKL = "airplane.pkl"
-# file_nameJSON = "airplane.json"
-
+    # Pickle packing
     def pack_pickle(self):
         return pickle.dumps(self)
 
@@ -39,10 +37,10 @@ def main():
 
     # json file
     serialized = json.dumps(airplane1.to_dict())
-    print(f"Serialized object:\n\n{serialized}\n\n")
+    print(f"JSON Serialized object:\n\n{serialized}\n\n")
 
     deserialized = json.loads(serialized)
-    print(f"Deserialized object:\n\n{deserialized}")
+    print(f"JSON Deserialized object:\n\n{deserialized}")
 
 
 if __name__ == "__main__":

@@ -14,7 +14,7 @@ class FahrenheitTemperatureAdapter:
         return fahrenheit_temp
 # Testování
 def main():
-    celsius_temp = CelsiusTemperature(25)  # Vytvoření instance teploty v Celsiu
+    celsius_temp = CelsiusTemperature(52)  # Vytvoření instance teploty v Celsiu
     fahrenheit_adapter = FahrenheitTemperatureAdapter(celsius_temp)  # Vytvoření instance adaptéru s teplotou v Celsiu
     print("Temperature in Fahrenheit:", fahrenheit_adapter.get_temperature())  # Výpis teploty v Fahrenheitech
 if __name__ == "__main__":
