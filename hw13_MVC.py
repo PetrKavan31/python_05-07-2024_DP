@@ -24,7 +24,7 @@ class ShoesView:
 
 
 class ShoesController:
-    def __int__(self, shoes, view):
+    def __init__(self, shoes, view):
         self.shoes = shoes
         self.view = view
 
