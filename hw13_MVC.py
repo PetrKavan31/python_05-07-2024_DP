@@ -33,9 +33,13 @@ class ShoesController:
 
 
 if __name__ == "__main__":
-    shoes = Shoes("Man", "sneakers", "black", 135, "Lonsdale", 44)
+    shoes1 = Shoes("Man", "sneakers", "black", 135, "Lonsdale", 44)
+    shoes2 = Shoes("Woman", "boots", "white", 145, "Rieker", 37)
     view = ShoesView()
-    controller = ShoesController(shoes, view)
+    controller = ShoesController(shoes1, view)
     controller.display_view()
+
+    print(shoes1)
+    print(shoes2)
 
 
