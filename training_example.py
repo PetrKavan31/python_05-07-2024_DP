@@ -1,3 +1,18 @@
+# MODULE MVC - Part 1
+# Task 1
+# Create a class Shoes. Store the following data:
+#
+# type of shoes:
+# male,
+# female;
+# type of shoes (sneakers, boots, sandals, dress shoes, etc.);
+# color;
+# price;
+# brand;
+# size.
+# Create necessary methods for this class. Implement the MVC pattern
+# for the Shoes class and code to use a model, controller, and view.
+
 class Shoes:
     """Model"""
     def __init__(self, gender, type_of_shoes, color, price, brand, size):
@@ -13,6 +28,7 @@ class Shoes:
 
 
 class ShoesView:
+    """View"""
     @staticmethod
     def display_shoes(shoes):
         print(f"Gender: {shoes.gender}")
@@ -24,6 +40,7 @@ class ShoesView:
 
 
 class ShoesController:
+    """Controller"""
     def __init__(self, shoes, view):
         self.shoes = shoes
         self.view = view
