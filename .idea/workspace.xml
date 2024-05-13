@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aed52cc6-9383-4801-9eae-94fc248afc01" name="Changes" comment="add object a prints (HW)&#10;add example" />
+    <list default="true" id="aed52cc6-9383-4801-9eae-94fc248afc01" name="Changes" comment="add HW Task" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,24 +41,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.Adapter.executor": "Run",
-    "Python.Air-mj.executor": "Run",
-    "Python.Airplane-MJ.executor": "Run",
-    "Python.Main.executor": "Run",
-    "Python.Singelton.executor": "Run",
-    "Python.hw13_MVC.executor": "Run",
-    "Python.mvc.executor": "Run",
-    "Python.mvt.executor": "Run",
-    "Python.training_example.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.Adapter.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Air-mj.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Airplane-MJ.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Singelton.executor&quot;: &quot;Run&quot;,
+    &quot;Python.hw13_MVC.executor&quot;: &quot;Run&quot;,
+    &quot;Python.mvc.executor&quot;: &quot;Run&quot;,
+    &quot;Python.mvt.executor&quot;: &quot;Run&quot;,
+    &quot;Python.training_example.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -179,7 +179,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715543672501</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="add HW Task">
+      <option name="closed" value="true" />
+      <created>1715623519720</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1715623519720</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -195,6 +203,7 @@
     <MESSAGE value="all singleton" />
     <MESSAGE value="add object a prints (HW)" />
     <MESSAGE value="add object a prints (HW)&#10;add example" />
-    <option name="LAST_COMMIT_MESSAGE" value="add object a prints (HW)&#10;add example" />
+    <MESSAGE value="add HW Task" />
+    <option name="LAST_COMMIT_MESSAGE" value="add HW Task" />
   </component>
 </project>
